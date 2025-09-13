@@ -11,7 +11,11 @@ fastify.get("/", (request, reply) => {
 });
 fastify.register(userRoutes);
 
-// Start server
+
+
+
+
+// Start 
 const start = async () => {
   try {
     await fastify.listen({ port: PORT, host: "127.0.0.1" });
